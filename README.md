@@ -21,7 +21,7 @@ Packt, a publishing company, provided this data along with a book “Machine Lea
 ## Team Members
 
 - Joomi Shim: I love avocado!
-- Spadan Dey: one sentence about you!
+- Spadan Dey: I love Apples!
 
 ## Images
 
