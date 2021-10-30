@@ -25,5 +25,9 @@ def sort_age(dfp):
     for i in range (18,64):
         df2=pd.melt(df1,id_vars='age',value_vars=[i])
         return df2
+def sort_genre(dfp):
+    df1 = dfp.groupby("age", as_index=False).sum()
+    df2 = pd.melt(df1, id_vars="bmi", value_vars=["charges"])
+    return df2
                     
                     
