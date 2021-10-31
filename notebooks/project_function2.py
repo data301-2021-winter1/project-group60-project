@@ -29,5 +29,4 @@ def sort_genre(dfp):
     df1 = dfp.groupby("age", as_index=False).sum()
     df2 = pd.melt(df1, id_vars="bmi", value_vars=["charges"])
     return df2
-                    
-                    
+   
